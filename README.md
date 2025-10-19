@@ -1,4 +1,40 @@
 # Mika Switchwire conversion
 
-![Mika](https://private-user-images.githubusercontent.com/28832579/425858451-716faba5-c74e-4634-b9b9-e69509d39d60.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI3NjkzMzIsIm5iZiI6MTc0Mjc2OTAzMiwicGF0aCI6Ii8yODgzMjU3OS80MjU4NTg0NTEtNzE2ZmFiYTUtYzc0ZS00NjM0LWI5YjktZTY5NTA5ZDM5ZDYwLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIzVDIyMzAzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNkMGJjY2M3YTczNjJjMjQyM2I1NjM1MjY1N2YwOTczY2NhYjYzM2E2ZjA5NWRlZDE3ZWE3MGRmYTE1YzM3NmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.iGnNvu9Zr_sAjq_RXwd-rJxWkwrtMzNhJL7KHvgESq0)
 
+My Mika switchwire conversion is for the **Ender_SW** project, which details a complete **conversion of the popular Creality Ender 3 Pro/V2 3D printer into a Voron Switchwire** (a CoreXZ printer).
+
+### Project Overview
+
+- **Goal:** To fully convert the budget-friendly Ender 3/V2 platform into a high-performance Voron Switchwire-style printer, adhering closely to the Voron design aesthetics and guidelines.
+    
+- **Design Basis:** It draws inspiration from a previous conversion by Triano but features a full re-design to improve structural integrity, aesthetics, and to specifically allow for a visually pleasant and functional **enclosure**.
+    
+- **Key Features & Upgrades:**
+    
+    - Implements the Voron Switchwire's **CoreXZ motion system** for improved speed and quality.
+        
+    - Uses **MGN12H Linear Rails** (often five, including dual Y-axis rails) for precision movement.
+        
+    - Maintains a printing volume of approximately **$220 \times 220 \times 220 \text{ mm}^3$**.
+        
+    - Includes **CAD files** (.f3d and .STEP) and **DXF files** for cutting enclosure panels.
+        
+    - Prioritizes using standard Voron screw and hardware sizes for consistency.
+        
+- **Recyclable Ender Parts:** The project is designed to reuse several key components from the original Ender 3/V2, including:
+    
+    - The **frame** (with a required X-axis extrusion modification).
+        
+    - The **MeanWell PSU** (Power Supply Unit).
+        
+    - The **heated bed assembly**.
+        
+    - Original electronics board and most cables (outside the cable chains).
+        
+    - The **XYZ stepper motors** (if pulleys can be removed).
+        
+
+This conversion aims to provide a reliable, enclosed, high-speed 3D printer experience by leveraging the existing Ender 3 frame and power components.
+
+
+See [Gallery](Gallery.md)
